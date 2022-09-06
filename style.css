@@ -1,0 +1,175 @@
+.logo {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.pro {
+    color: red;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.pertama {
+    margin: auto;
+    width: 60%;
+    
+}
+.pertama ul {
+    text-align: center;
+}
+.pertama ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: -15px;
+}
+.pertama ul li a {
+    text-decoration: none;
+    color: black;
+}
+.kedua{
+    margin: -10px;
+    margin-right: 20px;
+}
+.kedua ul{
+    text-align: center;
+}
+.kedua ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: -6px;
+}
+.kedua ul li a {
+    text-decoration: none;
+    color: black;
+   
+}
+.register {
+    border: 1px solid;
+    color: black;
+    border-radius: 50px;
+}
+.gambar {
+    background-color: grey;
+    background-size: cover;
+    height: 700px;
+    border-radius: 50px;
+}
+.title {
+    text-align: center; 
+}
+.button {
+    text-align: center;
+
+}
+.started, .pricing {
+ display: inline-block;
+margin: 20px;
+}
+
+.pricing h3 a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 15px;
+}
+
+.pricing h3 a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.started h3 a {
+    text-decoration: none;
+    color: #333;
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 15px;
+
+}
+
+.started h3 a:hover {
+    background-color: black;
+    color: white;
+
+}
+.man {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.man img {
+    border-radius: 80px;
+}
+
+.our {
+    margin-left: 200px;
+    margin-top: -300px;
+}
+.orang {
+    display: flex;
+    margin-left: 600px;
+}
+.orang img {
+    border-radius: 100px;
+
+}
+footer {
+    /* margin: 80px 0px; */
+    background-color: #dcfce7;
+    border-radius: 80px;
+    padding: 4rem 3rem;
+    margin-top: 9rem;
+    
+  }
+  
+  footer .textFooter {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer .textFooter ul {
+    list-style-position: inside;
+    list-style-type: none;
+  }
+  
+  footer .textFooter ul li {
+    color: #475569;
+    padding: 5px 0px;
+  }
+  
+  footer hr {
+    margin: 30px 0px;
+    color: #475569;
+  }
+  
+  footer .footerBottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footerBottom ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  footer .footerBottom > ul > li > a {
+    text-decoration: none;
+    margin: 0px 10px;
+  }
+  
+  footer .footerBottom .navLogin {
+    display: flex;
+    align-items: center;
+  }
+  
+  footer .footerBottom .navLogin i {
+    margin: 0 10px;
+  }
